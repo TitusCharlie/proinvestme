@@ -1,0 +1,83 @@
+- var theme_customizer      = true;
+- var tooltip               = true;
+- var page_datatable        = true;
+- var datatable             = true;
+doctype html
+html(lang='en')
+    include ../../components/header-files
+    body
+        include ../../components/loader
+        // page-wrapper Start
+        #pageWrapper.page-wrapper.compact-wrapper
+            include ../../components/header
+            // Page Body Start
+            .page-body-wrapper.sidebar-icon
+                include ../../components/sidebar
+                .page-body
+                    .container-fluid
+                        .page-header
+                            .row
+                                .col-lg-6
+                                  .page-header-left
+                                    h3 Wishlist
+                                    ol.breadcrumb
+                                        li.breadcrumb-item
+                                          a(href='index.html')
+                                            | Home
+                                        li.breadcrumb-item Ecommerce
+                                        li.breadcrumb-item.active Wishlist
+                                .col-lg-6
+                                  include ../../components/bookmark
+                    // Container-fluid starts
+                    .container-fluid
+                      .row
+                        .col-sm-12
+                          .card
+                            .card-header
+                              h5 Wishlist
+                            .card-body
+                              .order-history.table-responsive.wishlist
+                                table.table.table-bordernone
+                                  thead
+                                    tr
+                                      th Prdouct
+                                      th Prdouct Name
+                                      th Price
+                                      th Availability
+                                      th Action
+                                  tbody
+                                    tr.title-orders
+                                      td(colspan='12') New Orders
+                                    tr
+                                      td
+                                        img.img-fluid.img-60(src='../assets/images/product/1.png', alt='#')
+                                      td
+                                        .product-name
+                                          a(href='#') Long Top
+                                      td $21
+                                      td In Stock
+                                      td
+                                        i(data-feather='x-circle')
+                                    tr
+                                      td
+                                        img.img-fluid.img-60(src='../assets/images/product/13.png', alt='#')
+                                      td
+                                        .product-name
+                                          a(href='#') Fancy watch
+                                      td $50
+                                      td In Stock
+                                      td
+                                        i(data-feather='x-circle')
+                                    tr
+                                      td
+                                        img.img-fluid.img-60(src='../assets/images/product/4.png', alt='#')
+                                      td
+                                        .product-name
+                                          a(href='#') Man shoes
+                                      td $11
+                                      td In Stock
+                                      td
+                                        i(data-feather='x-circle')
+                    // Container-fluid Ends
+                include ../../components/footer
+        include ../../components/footer-files

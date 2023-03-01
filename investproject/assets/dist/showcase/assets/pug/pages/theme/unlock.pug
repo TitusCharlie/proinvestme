@@ -1,0 +1,27 @@
+doctype html
+html(lang='en')
+    include ../../components/header-files
+    body
+        include ../../components/loader
+        // page-wrapper Start
+        .page-wrapper
+          .container-fluid
+            // Unlock page start
+            .authentication-main.mt-0
+              .row
+                .col-md-12.p-0
+                  .auth-innerright.auth-minibox
+                    .authentication-box.auth-minibox1
+                      .text-center
+                        img(src='../assets/images/other-images/cuba-logo1.png', alt='')
+                      .card.mt-4.p-4.mb-0
+                        form.theme-form
+                          .form-group
+                            label.col-form-label Enter your Password
+                            input.form-control(type='password', placeholder='*******')
+                          .form-group.row.mb-2
+                            .col-md-3
+                              button.btn.btn-primary(type='submit') Unlock
+            // Unlock page end
+        // page-wrapper Ends
+        include ../../components/footer-files

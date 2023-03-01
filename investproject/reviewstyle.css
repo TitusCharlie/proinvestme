@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.counter-body
+{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtf0_PYY1ZV1IbqvN7d8a1XvSB0az1ABKsdA&usqp=CAU);
+   background-size: contain;
+   background-position: center;
+   box-sizing: border-box;
+}
+
+.counter-section
+{
+    margin: 10% auto;
+    color: #fff;
+}
+
+.counter-section .row {
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin-right: 0rem;
+   margin-left: 15rem;
+}
+.icon-box
+{
+    border: 1px solid #fff;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    transform: rotate(45deg);
+}
+.icon-box .fa
+{
+    font-size: 40px;
+    margin: 25px auto;
+    color: #fff;
+    transform: rotate(-45deg);
+}
+.counter-box p
+{
+    font-size: 20px;
+}
+.counter-box .counter
+{
+    font-size: 80px;
+}
+
+
+ /*Review stylesheet starts here*/
+
+  /*slider block*/
+  .slideshow-container
+  {
+     width: 800px;
+     position: relative;
+     transition: transform .8s, box-show .8s;
+     transform: perspective(1px) scale(1.05);
+     background-color: #fff;
+     padding: 24px;
+     box-sizing: box-border;
+     margin: auto;
+     box-shadow: 0 1px 3px 0 rgb(0 0 50 / 4%);
+     max-width: 600px;
+     border-radius: 4%;
+     height: 250px;
+     display: flex;
+     margin-top: 50px;
+     justify-content: center;
+     align-items: center;
+     border: 30px solid rgba(255,255,255,.1);
+ }
+ 
+ .slideshow-container .myslides
+ {
+     display: none;
+     padding: 80px;
+     text-align: center;
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+
+
+ }
+
+ .mySlides .reviewheader
+ {
+     display: flex;
+     align-items: center;
+     padding-left: 0%;
+ }
+
+ .mySlides .reviewstarrating
+ {
+     margin: 0 0 0 10px;
+     display: flex;
+ }
+ 
+ .mySlides .reviewheader .reviewstarrating img
+ {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0%;
+    min-width: 100%;
+ }
+
+ 
+ .mySlides .reviewstarrating 
+ {
+     width: 108px;
+     height: 20px;
+
+ }
+
+ .mySlides .reviewheader .reviewprofileimage
+ {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+ }
+
+ .mySlides .reviewauthor
+ {
+     margin-top: 10px;
+     padding-left:10px;
+     display: flex;
+     color: #adadad;
+     font-weight: normal;
+     font-size: 0.75rem;
+     line-height: 1rem;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+
+ .mySlides .reviewtext
+ {
+     overflow: hidden;
+     font-size: 0.875rem;
+     line-height: 1.25rem;
+     padding-left: 0%;
+     margin-top: 10%;
+ }
+

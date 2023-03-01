@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ProInvest Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <img style="width: 8em;" src="../assets/dist/img/logo-white.png">
+                        </a>
+                    </h1>
+
+                </div>
+                <!--//branding-->
+                <div class="top-search-box">
+                    <form class="form-inline search-form justify-content-center" action="" method="get">
+
+                        <input type="text" placeholder="Search..." name="search" class="form-control search-input">
+
+                        <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+
+                    </form>
+                </div>
+
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i> ProInvest Documentation</h1>
+                    <div class="meta"><i class="far fa-clock"></i> Last updated: July 13th, 2021</div>
+                </div>
+                <!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="download-section" class="doc-section">
+                                <h2 class="section-title">Changelog</h2>
+                                <div class="section-block">
+                                    <p>Update v3.5</p>
+                                    <ul>
+                                        <li>KYC Module View - Big Fix</li>
+                                    </ul>
+                                    <p>Update v3.4</p>
+                                    <ul>
+                                        <li>Calculator - New</li>
+                                        <li>Installation Issue - Bug Fix</li>
+                                        <li>Perfect Money Setup - Bug Fix</li>
+                                    </ul>
+                                    <p>Update v3.3</p>
+                                    <ul>
+                                        <li>Referral Distribution Issue - Bug Fix</li>
+                                        <li>Tawk Setup - Bug Fix</li>
+                                    </ul>
+                                    <p>Update v3.2</p>
+                                    <ul>
+                                        <li>New Template - New</li>
+                                        <li>Allow user to disable frontend templates - New</li>
+                                        <li>Set default language - New</li>
+                                        <li>Referrals List - New</li>
+                                        <li>Add deposit manager role - Bug Fix</li>
+                                    </ul>
+                                    <p>Update v3.1</p>
+                                    <ul>
+                                        <li>Recaptcha addition on contact us forms - New</li>
+                                        <li>Timezone support - New</li>
+                                        <li>Coinbase Commerce Payment Method - Bug Fix</li>
+                                        <li>KYC Pagination Issue - Bug Fix</li>
+                                        <li>Withdrawal method issue - Bug Fix</li>
+                                        <ul>
+                                            <li>To fix, delete current perfect money/paystack/payeer/coinbase method and create new one.</li>
+                                        </ul>
+                                        <li>Language translation in other sections</li>
+                                        <li>KYC ProInvest name removal - Bug Fix</li>
+                                        <li>PNG|PDF|JPG upload issue for bank transactions - Bug fix</li>
+                                        <li>Delete payment methods - Bug Fix</li>
+                                    </ul>
+                                    <p>Update v3.0</p>
+                                    <ul>
+                                        <li>Coinbase Commerce Payment Method - New</li>
+                                        <li>Perfect Money Payment Method - New</li>
+                                        <li>Withdrawal Fees Feature - New</li>
+                                        <li>KYC Feature - New</li>
+                                        <li>Languages(Português, Español & German) - New</li>
+                                        <li>Coinpayments Payment Method - Bug Fix</li>
+                                        <li>Web builder (Unable to edit) - Bug fix</li>
+                                    </ul>
+                                    <p>Update v2.4</p>
+                                    <ul>
+                                        <li>Reset password issue - Bug Fix</li>
+                                        <li>User wallet (Users can invest and withdraw from wallet amount) - New</li>
+                                        <li>Withdrawal issue - Bug fix</li>
+                                    </ul>
+                                    <p>Update v2.3</p>
+                                    <ul>
+                                        <li>Web builder endless loading - Bug Fix</li>
+                                        <li>Profile picture change - Bug fix</li>
+                                        <li>Coinpayments incorrect QR code issue - Bug fix</li>
+                                    </ul>
+                                    <p>Update v2.2</p>
+                                    <ul>
+                                        <li>SMTP Email Setup documentation - New</li>
+                                        <li>Email Template change documentation - New</li>
+                                        <li>Investment plans business days issue - Bug fix</li>
+                                        <li>Referrals error - Bug fix</li>
+                                    </ul>
+                                    <p>Update v2.1</p>
+                                    <ul>
+                                        <li>Installation issue - Bug fix</li>
+                                    </ul>
+                                    <p>Update v2.0</p>
+                                    <ul>
+                                        <li>Language Translation module - New</li>
+                                        <li>Support tickets module - New</li>
+                                        <li>Payeer payment method - New</li>
+                                        <li>Paystack payment method - New</li>
+                                        <li>Tawk chat plugin - New</li>
+                                        <li>Google Authenticator - New</li>
+                                        <li>Authy Authenticator - New</li>
+                                        <li>Google Recaptcha - New</li>
+                                        <li>Frontend Editor - New</li>
+                                        <li>Offline payment methods support - New</li>
+                                        <li>Reinvest & withdrawal button - Bug fix</li>
+                                    </ul>
+                                    <p>Update v1.3.4</p>
+                                    <ul>
+                                        <li>404 pages installation error fix</li>
+                                        <li>Password change feature in profile</li>
+                                        <li>Delete user feature</li>
+                                    </ul>
+                                    <p>Update v1.3.3</p>
+                                    <ul>
+                                        <li>Bug fixes</li>
+                                    </ul>
+                                    <p>Update v1.3.2</p>
+                                    <ul>
+                                        <li>Bug fixes</li>
+                                    </ul>
+                                    <p>Update v1.3.1</p>
+                                    <ul>
+                                        <li>Paypal integration switch to live error -- Bug fix</li>
+                                    </ul>
+                                    <p>ProInvest Version 1.3
+                                    </p>
+                                    <ul>
+                                        <li>Paypal integration -- New</li>
+                                        <li>Twilio SMS integration -- New</li>
+                                        <li>New email setup option [SMTP Protocol] -- New</li>
+                                        <li>Allow user to select plan during reinvestment -- New</li>
+                                        <li>New deposit mobile responsive -- Bug fix</li>
+                                        <li>Offline Bank Transfer Option -- Bug fix</li>
+                                        <li>Coinpayments IPN (auto-deposit) issue -- Bug fix</li>
+                                    </ul>
+                                    <p>ProInvest Version 1.2
+                                    </p>
+                                    <ul>
+                                        <li>Dynamic currency change and dollar exchange rate -- New</li>
+                                        <li>Automatic emails on earnings cron jobs -- New</li>
+                                        <li>Email templates & payment API/methods select loader -- New</li>
+                                        <li>Offline Bank Transfer Option -- New</li>
+                                        <li>Dynamic favicon change -- New</li>
+                                        <li>New deposit -- Bug fix</li>
+                                        <li>Client counter -- Bug fix</li>
+                                    </ul>
+                                    <p>ProInvest Version 1.1
+                                    </p>
+                                    <ul>
+                                        <li>XSS filtering -- Bug fix</li>
+                                        <li>Error pages -- New</li>
+                                    </ul>
+                                    <p>ProInvest Version 1.0
+                                    </p>
+                                    <ul>
+                                        <li>Initial Proinvest Platform</li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+                            <section id="update-section" class="doc-section">
+                                <h2 class="section-title">Updating Previous Installation v3.3 - v3.4</h2>
+                                <div class="section-block">
+                                    <p>To update your ProInvest Platform please follow the steps below:
+                                    </p>
+                                    <code>Before you start the upgrade ensure that you backup your database and your public_html folder incase anything breaks.</code>
+                                    <code>You will also need to have your Envato purchase code in order to run the update successfully (from version 2.4)</code>
+                                    <ol>
+                                        <li>Go to your current server installation and navigate to application/config/database.php</li>
+                                        <li>Save the file</li>
+                                        <li>Go to uploads and save the folder in another directory</li>
+                                        <li>Copy the other contents from the update folder to your server.</li>
+                                        <li>Replace application/config/database.php with the database.php file that you copied in step 1</li>
+                                        <li>Replace uploads with the uploads folder that you saved in another directory</li>
+                                        <li>Go to phpmyadmin and import the database file located in database/migration(3.3-3.4).sql</li>
+                                        <li>Go to your domain and test if everything works okay.</li>
+                                    </ol>
+                                    <code>Upon succesful upgrade. If you were using Tawk before, please scroll down to Tawk setup to setup your Tawk plugin again.</code>
+                                </div>
+                            </section>
+                            <section id="installation-section" class="doc-section">
+                                <h2 class="section-title">Installation</h2>
+                                <div class="section-block">
+                                    <p>This installation covers installs via cPanel or FTp client. You can jump to the section that is preferable to you.
+                                    </p>
+                                </div>
+                                <div id="step1" class="section-block">
+                                    <h3 class="block-title">cPanel Install</h3>
+                                    <ol class="list">
+                                        <li>Upload the zip file to <code>public_html</code> in cPanel</li>
+                                        <li>Unzip it using cPanel tools</li>
+                                        <li>Ensure that the main folders under cPanel are application, system, etc and not proinvest
+                                        </li>
+                                        <li>Go to <code>/application/config/database.php</code> and change permissions to 777</li>
+                                        <li>Ensure that the <code>.htaccess</code> file was unzipped/copied to your root folder</li>
+                                        <li>Go to the main cPanel page and scroll down to <b>DATABASES</b></li>
+                                        <li>Click <b>MySQL Databases</b></li>
+                                        <li>Create new database by putting database name and then clicking create database button</li>
+                                        <li>After database has been created, go back to the previous page and scroll down to <b>Add New User</b></li>
+                                        <li>Add username and password (make sure you save the password because you will need it)</li>
+                                        <li>Once the user has been created, go back to the previous page and again scroll down to <b>Add User To Database</b></li>
+                                        <li>Select the database name and user that you created above</li>
+                                        <li>Click 'Add' button and in the next page tick <b>ALL PRIVILEGES</b> box and then scroll down and click Make changes button</li>
+                                        <li>Once complete, you can go back to the previous page and scroll down to <b>Current Databases</b> to confirm that your new database has been connected to the new user you've created</li>
+                                    </ol>
+                                    <p>On successful completion, proceed to Database Configuration below.</p>
+                                </div>
+                                <!--//section-block-->
+                                <div id="step2" class="section-block">
+                                    <h3 class="block-title">FTP Install</h3>
+                                    <ol class="list">
+                                        <li>Unzip the folder to a directory locally</li>
+                                        <li>Copy the internal folder structure i.e application, system, assets etc to your site via the FTP client</li>
+                                        <li>Change the permissions for <code>/application/config/database.php</code> to 777</li>
+                                        <li>Ensure that the <code>.htaccess</code> file was unzipped/copied to your root folder</li>
+                                    </ol>
+                                    <p>On successful completion, proceed to Database Configuration below.</p>
+                                </div>
+                                <!--//section-block-->
+                                <div id="step3" class="section-block">
+                                    <h3 class="block-title">Database Configuration</h3>
+                                    <p>Go to your main url e.g. <code>http://YOUR_URL</code> which should redirect you to the database installation page. You can now put the information obtained above plus your envato purchase code to run the installer.
+                                    </p>
+                                    <p>Upon succesful installation (Your domain now directs you to the script and all pages are working), make sure that you go back to cPanel or your FTP and <b>DELETE</b> the folder named <code>install</code>for your server security</p>
+                                </div>
+                                <!--//section-block-->
+                                <div id="step4" class="section-block">
+                                    <h3 class="block-title">Trouble Shooting</h3>
+                                    <p>In the event that the installer does not work, please check whether you have an active internet connection. Also ensure that you have a SQL client installed. If you still face issues, please contact support at <a href="mailto:support@axis96.co?Subject=Setup%20support">support@axis96.co</a>.</p>
+                                </div>
+                                <div id="step5" class="section-block">
+                                    <h3 class="block-title">.htaccess Error</h3>
+                                    <p>In the event that the .htaccess file is not unzipped directly to your folder, you will face this error. Since it is a dot file, .htaccess might be hidden in some systems, we've documented how to check for it below:</p>
+                                    <ul>
+                                        <li>Cpanel</li>
+                                        <ul>
+                                            <li>Go to File Manager (Files Section)</li>
+                                            <li>Click the top-right Settings button.</li>
+                                            <li>Then on the Preferences window, check the option Show Hidden Files (dotfiles)</li>
+                                            <li>Confirm the action by clicking the Save button</li>
+                                            <li>Now you will see all hidden files (including .htaccess files) in File Manager.</li>
+                                        </ul>
+                                        <li>Once you have confirmed that you can view dot files, check for .htaccess file in root folder (where application was unzipped to)</li>
+                                        <li>If it is not there, please create a .htaccess file in the root folder and add the following to it:</li>
+                                        <code>
+                                            DirectoryIndex index.php
+                                            <br>
+                                            RewriteEngine on
+                                            <br>
+                                            <br>
+                                            RewriteCond $1 !^(index\.php|(.*)\.swf|forums|images|css|downloads|jquery|js|robots\.txt|favicon\.ico)
+                                            <br>
+                                            RewriteCond %{REQUEST_FILENAME} !-f
+                                            <br>
+                                            RewriteCond %{REQUEST_FILENAME} !-d
+                                            <br>
+                                            RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+                                        </code>
+                                        <li>Save the .htaccess file and then go back to the installer and click continue.</li>
+                                    </ul>
+                                    <p>If this does not work, please contact support at at <a href="mailto:support@axis96.co?Subject=Setup%20support">support@axis96.co</a>.</p>
+                                </div>
+                                <!--//section-block-->
+                                <div id="faqs" class="section-block">
+                                    <h3 class="block-title">FAQs</h3>
+                                    <p>Please go through the FAQs documented here (<a href="https://codecanyon.net/item/proinvest-cryptocurrency-and-online-investment-platform/25241549/support">https://codecanyon.net/item/proinvest-cryptocurrency-and-online-investment-platform/25241549/support</a>)
+                                        if you have any issues.</p>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <section id="code-section" class="doc-section">
+                                <h2 class="section-title">Getting Started</h2>
+                                <div class="section-block">
+                                    <p>
+                                        Go to <code>http://YOUR_URL/login</code> and login with the following credentials
+                                    </p>
+                                    <ul class="list">
+                                        <li>email: <code>admin@proinvest.com</code></li>
+                                        <li>Password: <code>12345678</code></li>
+                                    </ul>
+                                    <p>On successful login navigate to <code>Settings > General Settings</code>
+                                </div>
+                                <!--//section-block-->
+                                <div id="html" class="section-block">
+                                    <h3 class="block-title">Company Information</h3>
+                                    <p>Replace the default data with your own data.</p>
+                                    <img class="img-fluid" src="assets/images/demo/company_info.png" alt="elegant icons">
+                                </div>
+                                <!--//section-block-->
+                                <div id="css" class="section-block">
+                                    <h3 class="block-title">Site Settings</h3>
+                                    <p>Naavigate to the <code>Site Settings</code> tab. In this tab replace the values with your own. This information is important for proper indexing of your site and SEO. You can also add your chat widget code if available.</p>
+                                    <img class="img-fluid" src="assets/images/demo/seo_settings.png" alt="elegant icons">
+                                </div>
+                                <!--//section-block-->
+                                <div id="sass" class="section-block">
+                                    <h3 class="block-title">Email & SMS Settings</h3>
+                                    <p>Your email settings can be obtained from your hosting provider (or other external mail hosting provider). They are essential for sending out your email notifications. For SMS settings please refer to the <a class="scrollto"
+                                            href="#twilio">Twilio API</a> below.</p>
+                                    <h3>Setting up email</h3>
+                                    <ol>
+                                        <li>Obtain SMTP settings from your hosting provider</li>
+                                        <li>Confirm with your hosting provider that ports 25, 80, 465 or 587 is open and can be used for sending out emails</li>
+                                        <li>Enter SMTP Host given in the respective field e.g smtp@googlemail.com</li>
+                                        <li>Enter port (25, 2525, 80, 465 or 587) e.g 25</li>
+                                        <li>Select SMTP protocol as SMTP eg. SMTP</li>
+                                        <li>Enter SMTP user email (email address created for sending out emails) e.g johndoe@gmail.com</li>
+                                        <li>Enter password for your account e.g 12345678</li>
+                                        <li>Activate email and save the changes</li>
+                                        <li>Run a test by sending out an email</li>
+                                    </ol>
+                                    <p>Please note, if you are setting up gmail, you will need to turn on access to less secure apps in your gmail settings in order for emails to be sent</p>
+                                    <img class="img-fluid" src="assets/images/demo/email_settings.png" alt="elegant icons">
+                                    <code>Please note that some shared hosting providers disable their outgoing ports. You should confirm with your hosting provider whether you can send out emails with their SMTP settings.</code>
+                                </div>
+                                <div id="emailtemp" class="section-block">
+                                    <h3 class="block-title">Email Templates Settings</h3>
+                                    <h4>Changing logo</h4>
+                                    <ol>
+                                        <li>Click <code>&lt;/&gt;</code> to toggle code view</li>
+                                        <li>From the top look for the following line <code>&lt;img src="https://proinvest.axis96.co/uploads/logo-white.png" alt="logo-white.png"&gt;</code></li>
+                                        <li>Replace <code>src="https://proinvest.axis96.co/uploads/logo-white.png"</code> with the link to your own logo</li>
+                                        <li>Toggle code view <code>(&lt;/&gt;)</code> and confirm if the changes have been effected</li>
+                                        <li>Click save</li>
+                                    </ol>
+                                </div>
+                                <!--//section-block-->
+                                <div id="less" class="section-block">
+                                    <h3 class="block-title">Earnings Settings</h3>
+                                    <p>Allows you to configure your referral earnings easily</p>
+                                    <img class="img-fluid" src="assets/images/demo/earnings_settings.png" alt="elegant icons">
+                                </div>
+                                <!--//section-block-->
+                                <div id="kyc" class="section-block">
+                                    <h3 class="block-title">KYC Verification Settings</h3>
+                                    <p>ProInvest allows you to activate or deactivate KYC support for your account. You need to turn it on so that people can go through the KYC process.</p>
+                                    <img class="img-fluid" src="assets/images/demo/kyc.png" alt="elegant icons">
+                                </div>
+                                <!--//section-block-->
+                                <div id="plans" class="section-block">
+                                    <h3 class="block-title">Investment Plans</h3>
+                                    <p>In order for clients to transact using the system, you will need to setup your preferred investment plans by going to <code>Investment Plans</code></p>
+                                    <p>Here you can add new plans, view all your plans, edit and delete plans as per your need.</p>
+                                    <img class="img-fluid" src="assets/images/demo/plans.png" alt="elegant icons">
+                                </div>
+                                <!--//section-block-->
+                                <div id="team" class="section-block">
+                                    <h3 class="block-title">Team</h3>
+                                    <p>ProInvest supports role based access to your team members. To set up new users navigate to <code>Users > Team</code>. Here you can create an employee account and give them access to specific pages, edit their accounts
+                                        or deactivate them when need arises.</p>
+                                    <img class="img-fluid" src="assets/images/demo/team.png" alt="elegant icons">
+                                </div>
+                                <!--//section-block-->
+                                <div id="cronjobs" class="section-block">
+                                    <h3 class="block-title">Cron Jobs</h3>
+                                    <p>In order for your clients to receive automated emails on earnings, you will need to set up cron jobs in your hosting provider. For setting up cron jobs on cPanel, follow these steps:</p>
+                                    <ol class="list">
+                                        <li>Log in to cPanel, scroll down to the Advanced section and click the Cron Jobs icon.</li>
+                                        <img class="img-fluid" src="assets/images/demo/cron-jobs-icon.png" alt="elegant icons">
+                                        <li>Scroll down to the Add New Cron Job section. You can either select from the Common Settings drop down menus or fill out your own custom values. (Advisable to set it to once every 5 minutes)</li>
+                                        <img class="img-fluid" src="assets/images/demo/cron-example.png" alt="elegant icons">
+                                        <li>Enter the command <code>wget http:/YOURURL/emailcronjob</code> and click Add New Cron Job.</li>
+                                        <img class="img-fluid" src="assets/images/demo/add-new-cron-button.png" alt="elegant icons">
+                                    </ol>
+                                    <p>A confirmation will appear to confirm that the job has been added.</p>
+                                    <p>If you are not using cPanel, please contact your hosting support on how to setup cron jobs.</p>
+                                    <p>Please contact <a href="mailto:support@axis96.co?Subject=Setup%20support">support@axis96.co</a> for support if you are having any issues.</p>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <section id="API-section" class="doc-section">
+                                <h2 class="section-title">Payments API Config</h2>
+                                <div class="section-block">
+                                    <p>
+                                        Before you start receiving payments automatically on your app. You will have to first setup the Stripe and CoinPayments settings.
+                                    </p>
+                                    <p>Navigate to <code>Settings > Payment APIs</code> and select the API that you want to configure as outlined below</p>
+                                </div>
+                                <!--//section-block-->
+                                <div id="stripe" class="section-block">
+                                    <h3 class="block-title">Stripe API config</h3>
+                                    <p>For you to configure Stripe, you will need a <code>Public Key</code> and a <code>Private Key</code> from your Stripe Account. Follow these steps in order to obtain these keys</p>
+                                    <ol class="list">
+                                        <li>Login to <a href="https://stripe.com">Stripe.com</a> (Sign up if you don't have an account)</li>
+                                        <li>On succesful login you should be redirected to the dashboard where you will see a prompt to <code>Get your live API keys</code> (You will have to activate your account first)</li>
+                                        <li>Copy the Publishable Key and paste in in Public Key on your Stripe API Settings side panel and then copy the Secret Key and paste it on Secret Key</li>
+                                        <img class="img-fluid" src="assets/images/demo/stripe.png" alt="elegant icons">
+                                        <li>Before saving, ensure that you have activated the API by changing the status to active.</li>
+                                        <li>Finally, go to <code>Settings > Payment Methods</code>, click on Stripe update and change the status to active on the side panel.</li>
+                                        <img class="img-fluid" src="assets/images/demo/stripe_method.png" alt="elegant icons">
+                                        <li>On succesful reload, the Stripe payment method should be labelled active and you should be able to receive payments via Stripe</li>
+                                    </ol>
+                                </div>
+                                <!--//section-block-->
+                                <div id="coinpayments" class="section-block">
+                                    <h3 class="block-title">CoinPayments API</h3>
+                                    <p>In order for you to accept crypto payment, you will need to obtain a public and private key from the CoinPayments site as outlined below.</p>
+                                    <ol>
+                                        <li>Create an account at <a href="https://coinpayments.net">coinpayments.net</a></li>
+                                        <li>While in Coinpayments obtain the following information that you will use in the next step:
+                                            <ul>
+                                                <li>API Keys (Both public and secret keys) (<a href="https://www.coinpayments.net/index.php?cmd=acct_api_keys">https://www.coinpayments.net/index.php?cmd=acct_api_keys</a>)</li>
+                                                <li>Coinpayment Merchant ID (<a href="https://www.coinpayments.net/acct-settings">https://www.coinpayments.net/acct-settings</a>)</li>
+                                                <li>IPN Key (<a href="https://www.coinpayments.net/acct-settings">https://www.coinpayments.net/acct-settings</a>)</li>
+                                            </ul>
+                                        </li>
+                                        <li>Go back to the Proinvest Platform and navigate to settings > Addons APIs and then click on update under Coinpayments API</li>
+                                        <img class="img-fluid" src="assets/images/demo/coinpayments.png" alt="elegant icons">
+                                        <li>In the Coinpayments form fill in the public key, secret key, merchant ID and IPN Key with the values that you obtained above. In <code>IPN URL</code> input field input a unique code (Not a URL) where Coinpayments
+                                            will send notifications whenever a transaction is succesfully confirmed on the blockchain. Make sure you activate the API.</li>
+                                        <img class="img-fluid" src="assets/images/demo/coinpaymentsetup.png" alt="elegant icons">
+                                        <li>Proceed to <code>Settings > Payment Methods</code> and then activate the crypto payments that you would want to use by clicking update and changing the status on the side panel.</li>
+                                        <img class="img-fluid" src="assets/images/demo/coinpayments_method.png" alt="elegant icons">
+                                        <li>To carry out test transactions, select Litecoin Testnet and activate it (This is a test coinpayments coin, you can obtain free credits here <a href="https://www.coinpayments.net/login?return=acct_req_ltct">https://www.coinpayments.net/login?return=acct_req_ltct</a>)</li>
+                                        <li>Go to your coinpayments here <a href="https://www.coinpayments.net/acct-coins">https://www.coinpayments.net/acct-coins</a> and activate Litecoin Testnet (LTCT)</li>
+                                        <li>Go to client account and test your settings by using the Litecoin Testnet.</li>
+                                        <li>When the LTCT address comes up go to your coins wallet in coinpayments, select Testnet and then send to the address that came up. When successfully confirmed, you will receive an email from both coinpayments and
+                                            your own site.</li>
+                                    </ol>
+                                    <p>If you have succesfully setup all these steps, then your Coinpayments is now ready to be used</p>
+                                    <code>NB: Remember to deactivate the Litecoin Testnet Method</code>
+                                </div>
+                                <!--//section-block-->
+                                <div id="paypal" class="section-block">
+                                    <h3 class="block-title">PayPal API</h3>
+                                    <p>In order for you to accept PayPal payments, you will need to obtain the client ID and secret from your PayPal Developer account as outlined below.</p>
+                                    <ol>
+                                        <li>Create or login to your PayPal developer account at <a href="https://developer.paypal.com/">https://developer.paypal.com/</a></li>
+                                        <li>Follow these steps on how to get your sandbox credentials (Client ID and secret) for testing purposes <a href="https://www.paypal.com/us/smarthelp/article/how-do-i-find-my-sandbox-api-credentials-ts1500">https://www.paypal.com/us/smarthelp/article/how-do-i-find-my-sandbox-api-credentials-ts1500</a></li>
+                                        <li>Go back to the ProInvest Platform, navigate to addons API > Paypal API and update the settings with the credentials obtained from step 2 above. <code>Make sure to set the mode to sandbox</code></li>
+                                        <li>Proceed to <code>Settings > Payment Methods</code> and then activate PayPal by clicking update and changing the status on the side panel.</li>
+                                        <li>At this point you can carry out test transactions</li>
+                                        <li>Once you are comfortable with the functionality you can then decide to go live in your paypal account.(<a href="https://developer.paypal.com/docs/integration/paypal-here/sdk-dev/going-live/">https://developer.paypal.com/docs/integration/paypal-here/sdk-dev/going-live/</a>)</li>
+                                    </ol>
+                                    <code>NB: Once you go live remember to change the mode to Live</code>
+                                    <p>If you have succesfully setup all these steps, then your PayPal is now ready to be used</p>
+                                </div>
+                                <!--//section-block-->
+                                <div id="twilio" class="secttion-block">
+                                    <h3 class="block-title">Twilio API</h3>
+                                    <p>In order for you to send SMS notifications to your clients, you will need to obtain the <code>Account SID</code> and <code>Auth Token</code> from your Twilio account as outlined below.</p>
+                                    <ol>
+                                        <li>Create or login to your Twilio account at <a href="https://twilio.com/">https://twilio.com/</a></li>
+                                        <li>Once you have logged in, go to your Console dashboard to get your Account SID and Auth Token <a href="https://support.twilio.com/hc/en-us/articles/223136027-Auth-Tokens-and-How-to-Change-Them">https://support.twilio.com/hc/en-us/articles/223136027-Auth-Tokens-and-How-to-Change-Them</a>.
+                                            Save these somewhere safe</li>
+                                        <li>Follow these instructions to get a Twilio phone number <a href="https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account#get-your-first-twilio-phone-number">https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account#get-your-first-twilio-phone-number</a></li>
+                                        <li>Go back to the ProInvest Platform, navigate to addons API > Twilio API and update with the info obtained above.</li>
+                                        <li>Proceed to <code>Settings > General Settings</code> and go to the Email and SMS settings tab and input your Twilio SMS phone number that was obtained above in the <code>SMS Phone Number</code> field. Make sure to
+                                            activate before saving.</li>
+                                        <li>After saving you can click on Send a test SMS to confirm if your account is functional</li>
+                                    </ol>
+                                    <p>If you have succesfully setup all these steps, then your ProInvest instance can now send out SMS messages.</p>
+                                    <code>NB: If you are using a Twilio trial account, SMS messages will only be sent to accounts that you have verified in the Twilio console. You will need to upgrade to send out SMS messages to unverified phone numbers.</code>
+                                    <p>You are now good to go! If you need any support don't hesitate to contact us at <a href="mailto:support@axis96.co?Subject=Setup%20support">support@axis96.co</a></p>
+                                </div>
+                                <!--//section-block-->
+                                <!--//section-block-->
+                                <div id="gauth" class="secttion-block">
+                                    <h3 class="block-title">Google Authenticator</h3>
+                                    <ol>
+                                    <li>To secure user accounts during login, you can either user Google Authenticator or Authy(indicated below)</li>
+                                    <li>Activate the plugin and then go to settings > General settings and then the site settings tab.</li>
+                                    <li>Select Google Authenticator as the preferred two factor authenticator and activate</li>
+                                    </ol>
+                                </div>
+                                <!--//section-block-->
+                                <!--//section-block-->
+                                <div id="recaptcha" class="secttion-block">
+                                    <h3 class="block-title">Google Recaptcha</h3>
+                                    <p>To setup Google Recaptcha follow the steps below:</p>
+                                    <ol>
+                                        <li>Go to <a href="https://www.google.com/recaptcha/admin/create">https://www.google.com/recaptcha/admin/create</a></li>
+                                        <li>Register a new site. You can use either recaptcha v2 or v3 (both are supported)</li>
+                                        <li>After successful creation, get your recaptcha keys i.e Site Key and Secret Key</li>
+                                        <li>Copy the keys and save them in the Google recaptcha field in ProInvest.</li>
+                                    </ol>
+                                    <p>Make sure that you put the correct recaptcha type and corresponding keys.</p>
+                                </div>
+                                <!--//section-block-->
+                                <!--//section-block-->
+                                <div id="authy" class="secttion-block">
+                                    <h3 class="block-title">Authy</h3>
+                                    <ol>
+                                    <li>Please use these steps to create your own Authy API Key <a href="https://www.twilio.com/docs/authy/twilioauth-sdk/quickstart/obtain-authy-api-key">https://www.twilio.com/docs/authy/twilioauth-sdk/quickstart/obtain-authy-api-key</a></li>
+                                    <li>Afterwards, you can copy the key to the ProInvest field.</li>
+                                    <li>Navigate to Settings > General settings and then select the site settings tab.</li>
+                                    <li>Select Authy as the preferred two factor authenticator and activate</li>
+                                    </ol>
+                                </div>
+                                <!--//section-block-->
+                                <!--//section-block-->
+                                <div id="tawk" class="secttion-block">
+                                    <h3 class="block-title">Tawk</h3>
+                                    <ol>
+                                    <li>Create a Tawk account</li>
+                                    <li>Go to Settings and then Chat Widget</li>
+                                    <li>Copy the Direct Chat Link url</li>
+                                    <li>Paste the url in the Direct Chat Link field in Tawk Plugin Settings</li>
+                                    <li>Navigate to Settings > General settings and then select the site settings tab.</li>
+                                    <li>Select Tawk as the preferred chat plugin and activate</li>
+                                    </ol>
+                                    <img class="img-fluid mb-5" src="assets/images/demo/tawk.png" alt="elegant icons">
+                                </div>
+                                <!--//section-block-->
+                                <!--//section-block-->
+                                <div id="payeer" class="secttion-block">
+                                    <h3 class="block-title">Payeer</h3>
+                                    <p>Create a Payeer account</p>
+                                    <p>Get the secret and merchant ID's from your Payeer account and save them in the corresponding ProInvest fields.</p>
+                                    <p>Once you've setup add the following urls in your Payeer account: </p>
+                                    <ul>
+                                        <li>Success url - https://YOURURL/payeer/success</li>
+                                        <li>Fail url -  https://YOURURL/payeer/cancelled</li>
+                                        <li>Status url - https://YOURURL/payeer/ipn</li>
+                                    </ul>
+                                </div>
+                                <!--//section-block-->
+                                <!--//section-block-->
+                                <div id="paystack" class="secttion-block">
+                                    <h3 class="block-title">Paystack</h3>
+                                    <p>Create a Paystack account</p>
+                                    <p>Get the public key and secret key from your Paystack account and save them in the corresponding ProInvest fields.</p>
+                                </div>
+                                <!--//section-block-->
+                                <!--//section-block-->
+                                <div id="coinbase" class="secttion-block">
+                                    <h3 class="block-title">Coinbase Commerce</h3>
+                                    <ol>
+                                        <li>Open a coinbase commerce account on <a href="https://commerce.coinbase.com">commerce.coinbase.com</a></li>
+                                        <li>Go to settings and scroll down to API keys</li>
+                                        <li>Click reveal to show API Key and copy it to API Key field in ProInvest</li>
+                                        <li>Go back to coinbase settings and scroll down to Webhook subscriptions and then click Show shared secret to reveal secret key</li>
+                                        <li>Copy the secret key and paste it in Secret Key field in ProInvest</li>
+                                        <li>Go back to Coinbase and in the same area (Webhook subscriptions), click Add an endpoint</li>
+                                        <li>Add the following url https://YOUROWNURLHERE/coinbase/ipn and click save</li>
+                                    </ol>
+                                    <p></p>
+                                    <p>You can now start using coinbase as a payment gateway on your ProInvest install.</p>
+                                </div>
+                                <!--//section-block-->
+                                <!--//section-block-->
+                                <div id="perfectmoney" class="secttion-block">
+                                    <h3 class="block-title">Perfect Money</h3>
+                                    <ol>
+                                        <li>Create a <a href="https://perfectmoney.com/">Perfect Money</a> account</li>
+                                        <li>Login to your account an go to <a href="https://perfectmoney.com/profile.html">My Account</a></li>
+                                        <li>In the My Accounts card, copy the account code e.g. U1234678 based on the currency of choice.</li>
+                                        <li>Paste the account code to Payee Account in ProInvest</li>
+                                        <li>Add Payee name. This can be the name of your company and users will see this when making payments.</li>
+                                        <li>Go back to your Perfect Money account and Click 'Settings' from the top menu</li>
+                                        <li>Make up an 'alternate passphrase' and enter it in the settings form</li>
+                                        <li>Click 'Apply Changes'</li>
+                                        <li>Copy the alternate passphrase above and paste it in ProInvest under passphrase. Click Save.</li>
+                                    </ol>
+                                    <p>You can now start using Perfect Money to process payments.</p>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            </section>
+                            <!--//doc-section-->
+                        </div>
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link scrollto" href="#download-section">Changelog</a>
+                                <a class="nav-link scrollto" href="#update-section">Updating Previous Installation</a>
+                                <a class="nav-link scrollto" href="#installation-section">Installation</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#step1">cPanel install</a>
+                                    <a class="nav-link scrollto" href="#step2">FTP Install</a>
+                                    <a class="nav-link scrollto" href="#step3">Database Configuration</a>
+                                    <a class="nav-link scrollto" href="#step4">Trouble Shooting</a>
+                                    <a class="nav-link scrollto" href="#step5">.htaccess Error</a>
+                                    <a class="nav-link scrollto" href="#faqs">FAQs</a>
+                                </nav>
+                                <!--//nav-->
+                                <a class="nav-link scrollto" href="#code-section">Getting Started</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#html">Company Information</a>
+                                    <a class="nav-link scrollto" href="#css">Site Settings</a>
+                                    <a class="nav-link scrollto" href="#sass">Email & SMS Settings</a>
+                                    <a class="nav-link scrollto" href="#emailtemp">Email Templates Settings</a>
+                                    <a class="nav-link scrollto" href="#less">Earnings Settings</a>
+                                    <a class="nav-link scrollto" href="#plans">Investment Plans</a>
+                                    <a class="nav-link scrollto" href="#team">Team</a>
+                                    <a class="nav-link scrollto" href="#cronjobs">Cron Jobs</a>
+                                </nav>
+                                <!--//nav-->
+                                <a class="nav-link scrollto" href="#API-section">Plugins Config</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#stripe">Stripe API</a>
+                                    <a class="nav-link scrollto" href="#coinpayments">CoinPayments API</a>
+                                    <a class="nav-link scrollto" href="#paypal">Paypal API</a>
+                                    <a class="nav-link scrollto" href="#twilio">Twilio API</a>
+                                    <a class="nav-link scrollto" href="#gauth">Google Authenticator API</a>
+                                    <a class="nav-link scrollto" href="#recaptcha">Recaptcha API</a>
+                                    <a class="nav-link scrollto" href="#authy">Authy API</a>
+                                    <a class="nav-link scrollto" href="#tawk">Tawk API</a>
+                                    <a class="nav-link scrollto" href="#payeer">Payeer API</a>
+                                    <a class="nav-link scrollto" href="#paystack">Paystack API</a>
+                                    <a class="nav-link scrollto" href="#coinbase">Coinbase Commerce API</a>
+                                    <a class="nav-link scrollto" href="#perfectmoney">Perfect Money API</a>
+                                </nav>
+                                <!--//nav-->
+                            </nav>
+                            <!--//doc-menu-->
+
+                        </div>
+                    </div>
+                    <!--//doc-sidebar-->
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8));
+   background-size: cover;
+   background-position: center;
+} */
+
+.counter-section
+{
+    margin: 10% auto;
+    color: #fff;
+}
+.icon-box
+{
+    border: 1px solid #49B1E6;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    transform: rotate(45deg);
+}
+.icon-box .fa
+{
+    font-size: 40px;
+    margin: 25px auto;
+    color: #49B1E6;
+    transform: rotate(-45deg);
+}
+.counter-box p
+{
+    font-size: 20px;
+}
+.counter-box .counter
+{
+    font-size: 80px;
+}
+
+ /*Review stylesheet starts here*/
+ .reviewcard
+ {
+     transform: transform .8s, box-show .8s;
+     background-color: #fff;
+     padding: 24px;
+     box-sizing: box-border;
+     width: 100%;
+     margin: 0 0 16px 0;
+     box-shadow: 0 1px 3px 0 rgb(0 0 50 / 4%);
+ }
+
+ .reviewheader
+ {
+     display: flex;
+     align-items: center;
+ }

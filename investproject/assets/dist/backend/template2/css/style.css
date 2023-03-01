@@ -1,0 +1,120 @@
+/*!
+ * ProInvest v4.0 (https://axis96.co/)
+ * Copyright 2021 Axis96 Digital Studio.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
+====================================================================
+  Table of contents
+====================================================================
+
+- Google Fonts
+- General CSS Style
+
+*/
+
+/*** 
+
+====================================================================
+  Google fonts
+====================================================================
+
+***/
+
+@import url('https://fonts.googleapis.com/css?family=Jost:200,300,400,500,600,700,900');
+
+/*** 
+
+====================================================================
+  General CSS Style
+====================================================================
+
+***/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    overflow: auto!important;
+    background: #f9fbfd;
+}
+
+/* Font Sizes*/
+.fs-7 {
+    font-size: 0.85rem!important;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+/* Width*/
+.w-20 {
+    width: 20px;
+}
+
+li.active {
+    background: #f9fbfd;
+    width: 14em;
+    margin-left: -20px;
+    padding-left: 15px;
+    border-left: 5px solid rebeccapurple;
+}
+
+li.active a i, li.active a span{
+    color: #502a3d;
+}
+
+/* Transactions table*/
+table.transactions {
+    font-size: 13px;
+}
+
+table.transactions tbody tr {
+    border-bottom: 1px solid #fff;
+    background-color: #f9fbfd;
+    box-shadow: rgb(0 0 0 / 8%) 0px 2px 3px 0px;
+}
+
+table.transactions tbody tr td{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+table.portfolio { 
+    border-collapse: separate; 
+    border-spacing: 0 10px; 
+    margin-top: -10px; /* correct offset on first border spacing if desired */
+}
+table.portfolio tbody tr {
+    box-shadow: rgb(0 0 0 / 8%) 0px 2px 3px 0px;
+    border-radius: 10px;
+}
+table.portfolio tbody tr td {
+    border: solid 1px #e8e5e5;
+    border-style: solid none;
+    padding: 10px;
+    background-color: #fff;
+}
+table.portfolio tbody tr td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+table.portfolio tbody tr td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 10px; 
+    border-top-right-radius: 10px; 
+}

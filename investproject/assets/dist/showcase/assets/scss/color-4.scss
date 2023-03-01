@@ -1,0 +1,192 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Xolo Admin
+    Template URI: themes.pixelstrap.com/Xolo
+    Description: This is Admin theme
+    Author: Pixelstrap
+    Author URI: https://themeforest.net/user/pixelstrap
+
+-----------------------------------------------------------------------------------
+
+
+01. General CSS Start
+02. Generic CSS Start
+03. Card CSS Start
+04. Loader CSS Start
+05. Header CSS Start
+06. Button CSS start
+07. Color CSS Start
+08. GRID CSS Start
+09. Error-page  CSS Start
+10. ICON CSS Start
+11. Form Builder 1 CSS Start
+12. Form Builder 2 CSS Start
+13. Email Application  CSS Start
+14. Chat CSS Start
+15. Alert CSS start
+16. Popover CSS Start
+17. List CSS Start
+18. Switch  CSS Start
+19. Mega option CSS Start
+20. Touchspin  CSS Start
+21. Select 2 CSS Start
+22. User profile css start
+23. Progress CSS Start
+24. According CSS start
+25. Authentication CSS Start
+26. Form CSS Start
+27. Coming Soon CSS Start
+28. Radio CSS Start
+29. Form Input CSS Start
+30. Data-table CSS start
+31. JS datagrid CSS Start
+32. pagination CSS Start
+33. Ecommerce  CSS Start
+34. Pricing CSS Start
+35. Form builder css start
+36. NAV CSS Start
+37. Dropdown CSS Start
+38. Landing CSS Start
+39. Table  CSS Start
+40. Order History CSS start
+41. Chart CSS Start
+42. Timeline CSS Start
+43. Timeline 2 CSS Start
+44. Tabs CSS Start
+45. Gallery CSS Start
+46. Blog CSS start
+47. Footer CSS Start
+48. Form Wizard CSS Start
+49. Badge CSS start
+51. Search CSS Start
+52. Datepicker CSS Start
+53. Dashboard CSS Start
+54. Tour  CSS Start
+55. theme layout CSS Start
+56. Ribbon CSS Start
+57. breadcrumb CSS Start
+58. Steps  CSS Start
+59. Customizer  CSS Start
+60. RTL CSS Start
+61. base_inputs CSS start
+62. Responsive CSS Start
+63. Box-layout CSS start
+64. Button Builder CSS start Here
+65. Button Builder color picker CSS Start
+66. FullCalendar CSS Start
+67. Dashboard 2 CSS Start
+68. Dashboard 3 CSS Start
+69. Dashboard 4 CSS Start
+70. Document CSS Start
+71. Faq CSS start
+72. Job CSS start
+73. knowledgebase CSS start
+74. internationalization css start
+75. Learning CSS start
+76. Language CSS start
+77. Print CSS Start
+78. Sidebar CSS Start
+79. social app css start
+80. avatars CSS start
+81. Bookmark CSS start
+82. cart CSS start
+83. Wishlist CSS start
+84. Checkout CSS start
+85. bookmark app CSS Start
+86. contacts CSS Start
+87. task app CSS Start
+
+ */
+@import "theme/variables";
+$primary-color: #4c2fbf;
+$secondary-color :#2e9de4;
+$gradient-primary: linear-gradient($secondary-color, $primary-color);
+$gradient-primary-direction: linear-gradient(to right, lighten($primary-color, 10%), darken($primary-color, 8%));
+$gradient-secondary-direction: linear-gradient(to right, lighten($secondary-color, 10%),  darken($secondary-color, 5%));
+$all-focus-outline-color: $primary-color;
+$code-tag-color: $primary-color;
+$list-group-active-bg-color: $primary-color;
+$list-group-active-border-color: $primary-color;
+$tour-color: $primary-color;
+$main-header-right-toggle-color : $primary-color;
+$main-header-right-nav-icon-color :  $primary-color;
+$light-body-bg-color: rgba($primary-color, 0.10);
+$page-body-bg-color: $light-color;
+$pre-tag-bg-color: rgba($primary-color, 0.05);
+
+@import "theme/general";
+@import "theme/generic";
+@import "theme/card";
+@import "theme/loader";
+@import "theme/header";
+@import "theme/sidebar";
+@import "theme/buttons";
+@import "theme/color";
+@import "theme/grid";
+@import "theme/errorpage";
+@import "theme/icons";
+@import "theme/form-builder";
+@import "theme/form_builder-2";
+@import "theme/button-builder";
+@import "theme/email-application";
+@import "theme/chat";
+@import "theme/alert";
+@import "theme/popover";
+@import "theme/list";
+@import "theme/switch";
+@import "theme/megaoption";
+@import "theme/touchspin";
+@import "theme/select2";
+@import "theme/user-profile";
+@import "theme/progress";
+@import "theme/according";
+@import "theme/login";
+@import "theme/forms";
+@import "theme/comingsoon";
+@import "theme/radio";
+@import "theme/form-input";
+@import "theme/datatable";
+@import "theme/jsgrid";
+@import "theme/page";
+@import "theme/ecommerce";
+@import "theme/pricing";
+@import "theme/builders";
+@import "theme/navs";
+@import "theme/dropdown";
+@import "theme/landing";
+@import "theme/table";
+@import "theme/chart";
+@import "theme/timeline-v";
+@import "theme/timeliny";
+@import "theme/tab";
+@import "theme/gallery";
+@import "theme/blog";
+@import "theme/footer";
+@import "theme/form-wizard";
+@import "theme/badge";
+@import "theme/tree";
+@import "theme/search";
+@import "theme/datepicker";
+@import "theme/tour";
+@import "theme/custom-theme-options";
+@import "theme/ribbon";
+@import "theme/breadcrumb";
+@import "theme/steps";
+@import "theme/theme-customizer";
+@import "theme/faq";
+@import "theme/knowledgebase";
+@import "theme/document";
+@import "theme/job-search";
+@import "theme/learning";
+@import "theme/order-history";
+@import "theme/internationalization";
+@import "theme/social-app";
+@import "theme/avatars";
+@import "theme/bookmark";
+@import "theme/cart";
+@import "theme/wishlist";
+@import "theme/checkout";
+@import "theme/dashboard_default";
+@import "theme/dashboard_2";
+@import "theme/box-layout";
+@import "theme/rtl";
