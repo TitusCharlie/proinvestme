@@ -14,7 +14,7 @@ class Auth extends BaseController
 {
 
 	// TODO: Add admin email
-    public $admin_email = '';
+    public $admin_email = 'freelancecharliet@gmail.com';
 
     /**
      * Auth constructor
