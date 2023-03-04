@@ -13,7 +13,8 @@ require APPPATH . '/libraries/BaseController.php';
 class Auth extends BaseController
 {
 
-    public $admin_email = 'freelancecharliet@gmail.com';
+	// TODO: Add admin email
+    public $admin_email = '';
 
     /**
      * Auth constructor
