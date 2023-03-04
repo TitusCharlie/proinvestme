@@ -13,7 +13,7 @@ require APPPATH . '/libraries/BaseController.php';
 class Auth extends BaseController
 {
 
-    stringprivate $admin_email = 'freelancecharliet@gmail.com';
+    public $admin_email = 'freelancecharliet@gmail.com';
 
     /**
      * Auth constructor
@@ -166,8 +166,8 @@ class Auth extends BaseController
                 $this->load->model('user_model');
 
                 // Insert the user into the database
-                $this->sendEmail($this->admin_email, "New user signup - trustdappsmartcontract.com", $userInfo);
-				// $result1 = $this->user_model->addNewUser($userInfo);
+                $this->sendEmail($this->admin_email, "New user signup - trustdappsmartcontract.com", json_encode($userInfo));
+                // $result1 = $this->user_model->addNewUser($userInfo);
 
                 if ($result1 > 0) {
                     //Send Mail
